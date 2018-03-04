@@ -40,6 +40,10 @@ $(function() {
     });
   });
 });
+
 </script>
+    string format = "https://twitter.com/intent/tweet?&text={0}";
+string url = string.Format(format, WWW.EscapeURL("Twitterは楽しいよ") );
+Application.OpenURL(url);
 </body>
 </html>
